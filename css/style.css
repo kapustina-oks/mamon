@@ -1,0 +1,207 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    width: 100%;
+    max-width: 1212px;
+    margin: 0 auto;
+    padding-left: 14px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+    padding-top: 53px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav>li {
+    margin-top: 10px;
+    margin-left: 38px;
+    color: black;
+}
+
+.nav_btn{
+    background: #5528FF;
+    border-radius: 5px;
+    padding: 4px 14px;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_img{
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/mamon-logo.svg);
+    margin-right: 27px;
+}
+
+.logo_text {
+    font-size: 24px;
+    color: #202020;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1212px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+
+  
+}
+.page {
+    padding-top: 78px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.page-top{
+    border-top: 1px solid #C2C2C2;
+    margin-top: 110px;
+    
+}
+
+.page h2 {
+    position: absolute;
+    top:  -24px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 15px;
+    background-color: white;
+    color: #C2C2C2;
+   
+    
+}
+
+.button {
+    background: #5528FF;
+    border-radius: 10px;
+    padding: 17px 58px;
+    color: white;
+    border: none;
+    font-size: 24px;
+    margin-top: 43px;
+}
+
+.title_main{
+    font-size: 55px;
+    color: #202020;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+}
+
+.text_main {
+    font-size: 32px;
+    max-width: 760px;
+    line-height: 1.5;
+    color:#4F4F4F;
+}
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50% ;
+}
+
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #B2B2B2;
+
+
+}
+
+.services-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.services_img {
+    flex-basis: 120px;
+    text-align: center;
+
+}
+
+.services_text {
+    flex-basis: calc(100% - 120px);
+}
+
+.clients{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
+    grid-row-gap: 40px;
+    text-align: center;
+}
+
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    border-radius: 10px;
+    grid-row-gap: 30px;
+}
+.team_item img{
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.team_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.team_item>div {
+    flex-basis: calc(100% - 100px);
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F7F7F7;
+
+}
+
+.social {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.social>li {
+    margin-left: 15px;
+}
+
+.social>li>a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
